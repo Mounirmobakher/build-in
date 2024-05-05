@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgba(10, 228, 10, 0.567);
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-radius: 50px;
+    flex-wrap: wrap;
+}
+header h1{
+    font-size: 28;
+    font-weight: 800;
+    border: 1px solid #000;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(27, 127, 204);
+    color:#fff;
+}
+.Navbar {
+   text-align: center;
+    padding-top: 20px;   
+}
+
+.Navbar a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px 40px;
+    color: black;    
+}
+
+.table {
+    width: 60%;
+    height: 100%;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 300px;
+    margin-top: 40px;
+}
+
+.table th { 
+     width: 350px;
+    height: 60px;
+}
+
+.table td {
+    width: 350px;
+    height: 60px;
+}
+.post{
+    display: flex;
+    align-items: center;
+    margin-right: 450px;
+    width: 35%;
+    height: 50px;
+    background-color: aqua;
+    margin-top: 20px;
+}
+.post a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 200px;
+}
+.info h1{
+   margin-top: 20px;
+   margin-right: 600px;
+}
+.info-company {
+    margin-right: 250px;
+    margin-top: 20px;
+    width: 60%;
+    padding: 2%;
+    background-color: rgba(72, 72, 74, 0.37);
+    height: 200px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.info-company p{
+    line-height: 60px;
+    font-size: 22px;
+}
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+background-color: blue ;
+    height: 100px;   
+    width: 50%;
+    margin-top: 4rem;
+    margin-right:20rem;
+}
+.contact-us img{
+    margin-top: 10px;       
+    padding-left: 15px;
+    width: 25px;
+}
+.biuld-info{
+    margin-right: 400px;
+    margin-top: 30px;
+}
+.table-build{
+    text-align: center;
+}
+.table-build th{
+    height: 30px;
+    width: 120px;
+}
+.table-build td{
+    width: 120px;
+    height: 30px;
+}
+.btn-next{
+    margin-top: 10px;
+    margin-right: 400px;
+    width: 50px;
+    height: 30px;
+}
+#formContainer{
+    border: 1px dashed blue;
+    width: 500px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius:10px ;
+}
+#propertyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-top: 30px;
+}

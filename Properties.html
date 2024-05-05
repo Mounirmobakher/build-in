@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Smart Hous</h1>
+        <div class="Navbar">
+            <a href="index.html"> Home </a>
+            <a href="AboutUs.html"> AboutUs </a>
+            <a href="Properties.html"> Properties </a>
+        </div>
+    </header>
+    <section>
+        <div class="biuld-info">
+            <table border="1" class="table-build">
+                <tr>
+                    <th>المدينة</th>
+                    <th>تفاصيل</th>
+                    <th>الإيجار الشهري</th>
+                    <th>اظهار التفاصيل</th>
+                    <th>اختيار</th>
+                </tr>
+                <tr>
+                    <td>دمشق</td>
+                    <td>شقة غرفة و صالة مساحة 70متر</td>
+                    <td>500000 ل.س</td>
+                    <td><input type="checkbox" id="Ta1"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat1" style="display: none; border: 0; ">
+                    <td>المنطقة: ركن الدين</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date1" style="display: none; border: 0; ">
+                    <td><img src="./image/dat1.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat2.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat8.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta2"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat2" style="display: none; border: 0; ">
+                    <td>المنطقة: الخالدية</td>
+                    <td></td>
+                    <td>لايوجد كراج</td>
+                    <td></td>
+                    <td>الطابق الاول</td>
+                  </tr>
+                  <tr id="date2" style="display: none; border: 0; ">
+                    <td><img src="./image/dat5.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat1.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>دمشق</td>
+                    <td>شقة فارغة مساحة 110 متر </td>
+                    <td>600000 ل.س</td>
+                    <td><input type="checkbox" id="ta3"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat3" style="display: none; border: 0; ">
+                    <td>المنطقة: الحميدية </td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الرابع</td>
+                  </tr>
+                  <tr id="date3" style="display: none; border: 0; ">
+                    <td><img src="./image/dat8.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat5.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>السويداء</td>
+                    <td>شقة غرفتين و صالة 80متر</td>
+                    <td>650000 ل.س</td>
+                    <td><input type="checkbox" id="ta4"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat4" style="display: none; border: 0; ">
+                    <td>المنطقة: شهبا </td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثاني</td>
+                  </tr>
+                  <tr id="date4" style="display: none; border: 0; ">
+                    <td><img src="./image/dat4.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat1.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat2.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>مستودع مساحة 50متر</td>
+                    <td>200000 ل.س</td>
+                    <td><input type="checkbox" id="ta5"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat5" style="display: none; border: 0; ">
+                    <td>المنطقة: الخالدية </td>
+                    <td></td>
+                    <td>لايوجد كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date5" style="display: none; border: 0; ">
+                    <td><img src="./image/dat4.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat2.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حلب</td>
+                    <td>شقة فارغة ثلاث غرف 130متر</td>
+                    <td>750000 ل.س</td>
+                    <td><input type="checkbox" id="ta6"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat6" style="display: none; border: 0; ">
+                    <td>المنطقة:الجميلية</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق العاشر</td>
+                  </tr>
+                  <tr id="date6" style="display: none; border: 0; ">
+                    <td><img src="./image/dat3.jpeg " alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat8.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat4.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta7"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat7" style="display: none; border: 0; ">
+                    <td>المنطقة: الخالدية</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date7" style="display: none; border: 0; ">
+                    <td><img src="./image/dat4.jpeg " alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat8.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat1.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta8"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat8" style="display: none; border: 0; ">
+                    <td>المنطقة: الخالدية</td>
+                    <td></td>
+                    <td>لايوجد كراج</td>
+                    <td></td>
+                    <td>الطابق الاول</td>
+                  </tr>
+                  <tr id="date8" style="display: none; border: 0; ">
+                    <td><img src="./image/dat5.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat5.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat2.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta9"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat9" style="display: none; border: 0; ">
+                    <td>المنطقة: ركن الدين</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date9" style="display: none; border: 0; ">
+                    <td><img src="./image/dat4.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat8.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta10"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat10" style="display: none; border: 0; ">
+                    <td>المنطقة: ركن الدين</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date10" style="display: none; border: 0; ">
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta11"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat11" style="display: none; border: 0; ">
+                    <td>المنطقة: ركن الدين</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date11" style="display: none; border: 0; ">
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta12"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat12" style="display: none; border: 0; ">
+                    <td>المنطقة: ركن الدين</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date12" style="display: none; border: 0; ">
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+                <tr>
+                    <td>حمص</td>
+                    <td>دكان مساحة 50متر</td>
+                    <td>250000 ل.س</td>
+                    <td><input type="checkbox" id="ta13"></td>
+                    <td><input type="radio" class="selectProperty"></td>
+                </tr>
+                <tr id="dat13" style="display: none; border: 0; ">
+                    <td>المنطقة: ركن الدين</td>
+                    <td></td>
+                    <td>متوفر كراج</td>
+                    <td></td>
+                    <td>الطابق الثالث</td>
+                  </tr>
+                  <tr id="date13" style="display: none; border: 0; ">
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;"></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" ></td>
+                    <td></td>
+                    <td><img src="./image/dat3.jpeg" alt="" style="width: 100px; height: 100px;" > </td>
+                  </tr>
+            </table>
+        </div>
+        <form action="">
+            <input type="button" value="متابعة" class="btn-next" >
+        </form>
+    </section>
+    <div id="formContainer" style="display: none;">
+        <h2>البيانات الشخصية</h2>
+        <form id="propertyForm">
+          <label for="fullName">الاسم الكامل :</label>
+          <input type="text" id="fullName" name="fullName" required>
+          <br>
+          <label for="nationalID">الرقم الوطني :</label>
+          <input type="text" id="nationalID" name="nationalID" pattern="[0-9]{11}" required>
+          <br>
+          <label for="birthDate">تاريخ الميلاد :</label>
+          <input type="text" id="birthDate" name="birthDate" pattern="(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-[0-9]{4}" required>
+          <br>
+          <label for="phoneNumber">رقم الجوال (Syriatel OR MTN):</label>
+          <input type="text" id="phoneNumber" name="phoneNumber" pattern="(099|094|096|095|093|097|098|092|091|090)[0-9]{7}" required>
+          <br>
+          <label for="email">البريد الإلكتروني:</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+          <input type="submit" value="ارسال">
+        </form>
+      </div>      
+    <script src="./MyFunction.js"></script>
+
+</body>
+
+</html>
